@@ -1,0 +1,34 @@
+{
+  "name": "simple-signals",
+  "version": "1.0.0",
+  "description": "A simple signalling library.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "unpkg": "dist/index.min.js",
+  "module": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "repository": "github:astrellon/simple-signals",
+  "scripts": {
+    "build": "tsc && terser -c -m --mangle-props regex=/listeners/ -o dist/index.min.js --source-map filename=dist/input.js.map dist/index.js",
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "keywords": [
+    "signal",
+    "signalling",
+    "callbacks"
+  ],
+  "npmName": "simple-signals",
+  "author": "Alan Lawrey",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^26.0.0",
+    "@types/node": "^14.0.13",
+    "jest": "^26.0.1",
+    "terser": "^4.8.0",
+    "ts-jest": "^26.1.0",
+    "typescript": "^3.9.5"
+  }
+}
