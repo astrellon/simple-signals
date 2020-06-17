@@ -1,5 +1,5 @@
 # Simple Signals
-![NPM](https://badgen.net/npm/v/simple-signal)![Badge for Gzip size](https://badgen.net/bundlephobia/minzip/simple-signal
+![NPM](https://badgen.net/npm/v/simple-signals)![Badge for Gzip size](https://badgen.net/bundlephobia/minzip/simple-signals)
 
 A Typescript based simple signal framework.
 
