@@ -31,7 +31,7 @@ export default class Signal<T>
      * @param listener A listener function.
      * @returns A function to remove the listener from the signal.
      */
-    public add = (listener: SignalListener<T>) : RemoveListener =>
+    public add(listener: SignalListener<T>) : RemoveListener
     {
         this.listeners.push(listener);
 
